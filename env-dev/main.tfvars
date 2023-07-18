@@ -9,9 +9,9 @@ parameters = [
   { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.sreenivasulareddydevops.online:27017/catalogue" },
   { name = "dev.user.mongo", value = "MONGO=true" },
   { name = "dev.user.redis_host", value = "redis-dev.sreenivasulareddydevops.online" },
-  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.sreenivasulareddydevops.online:27017/user" }
+  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.sreenivasulareddydevops.online:27017/user" },
+  { name = "dev.cart.catalogue_host", value = "catalogue-dev.sreenivasulareddydevops.online" },
+  { name = "dev.cart.redis_host", value = "redis-dev.sreenivasulareddydevops.online" },
+  { name = "dev.cart.catalogue_port", value = "8080" }
 ]
 
-#Environment=MONGO=true
-#Environment=REDIS_HOST=redis-dev.sreenivasulareddydevops.online
-#Environment=MONGO_URL="mongodb://mongodb-dev.sreenivasulareddydevops.online:27017/users"
