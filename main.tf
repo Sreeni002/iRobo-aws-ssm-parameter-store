@@ -7,6 +7,8 @@ resource "aws_ssm_parameter" "parameters" {
 }
 
 # passwords are never keep inside the code. Since it is a lab we are keeping
+# one of the scenario that mostly use in realtime way is, Enter the passwords manually in parameter store by someone for passwords
+
 resource "aws_ssm_parameter" "passwords" {
   count = length(var.passwords)
   name = var.passwords[count.index].name
